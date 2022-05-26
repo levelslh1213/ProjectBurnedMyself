@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sobre">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backButton"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/lblUniversidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Centro Universitário Sagrado Coração"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:id="@+id/lblParticipantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Participantes:"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtParticipantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paulo Leonardo da Silva Paes\nGabriel Augusto Rondina de Mattos\nLucas Develis"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+        <TextView
+            android:id="@+id/lblFerramentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ferramentas utilizadas:"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtFerramentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mockups - Figma;\n  IDE de desenvolvimento: Android Studio;\n Modelagem: LucidShart;"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+        <TextView
+            android:id="@+id/lblLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projeto pode ser encontrado no link:"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/levelslh1213/ProjectBurnedMyself"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:id="@+id/lblReferencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Referências:"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtReferencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informações retiradas de artigo do Hospital Israelita Albert Einstein. Link: \n https://www.einstein.br/doencas-sintomas/queimaduras"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:id="@+id/lblOrientador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orientador:"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtOrientador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vinicius Santos Andrade  - Linguagens de programação III"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:onClick="btnVoltarOnClick"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbuttom"
+            android:elevation="40dp"
+            android:textColor="@color/white"
+            android:text="Voltar ao inicío!"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

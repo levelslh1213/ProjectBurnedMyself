@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questoes1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backButton"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/lblTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como aparenta a sua queimadura?"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp"/>
+
+        <Button
+            android:id="@+id/btnAvermelhado"
+            android:onClick="btnAvermelhadoOnClick"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@drawable/roundquestions"
+            android:elevation="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:text="Apresenta somente vermelhidão"
+            android:textSize="15dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp"/>
+
+        <Button
+            android:id="@+id/btnBolhas"
+            android:onClick="btnBolhasOnClick"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:textColor="@color/white"
+            android:background="@drawable/roundquestions"
+            android:elevation="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Apresenta vermelhidão e bolhas"
+            android:textSize="15dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp"/>
+
+        <Button
+            android:id="@+id/btnBranca"
+            android:onClick="btnBrancaOnClick"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@drawable/roundquestions"
+            android:elevation="40dp"
+            android:textColor="@color/white"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Apresenta somente aparência branca ou preta"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
